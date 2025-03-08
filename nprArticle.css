@@ -1,0 +1,237 @@
+
+/* 
+-----------------------------------------------
+Newspaper Reports Template Style
+Name:        Newspaper Reports
+License:     Premium Version
+Version:     3.0
+Author:      Newspaper Reports
+Author Url:  https://www.newspaperreports.com
+----------------------------------------------- */
+
+:root {
+    --global-cg-link-font: 700 14px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font-color: #000;
+    --global-asM-ads-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-asM-ads-author-color: #626262;
+    --global-asM-ads-author-hover-color: #b60a7c;
+    --font-family-global: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-headline-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-hero-headline-color: #303030;
+    --global-item-headline-color: #000;
+    --global-item-headline-hover-color: #626262;
+    --global-item-description-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --global-item-description-color: #303030;
+    --global-item-description-hover-color: #575050fb;
+    --global-item-tag-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-tag-color: #AA1E23;
+    --global-npr_atc-hover-color: #ec0854;
+    --global-item-publish-time-color: #626262;
+    --global-border-any-side-color: #c2c2c2;
+    --global-third-party-athor-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-third-party-athor-color: #626262;
+
+    --txt-whi-color: #ffffff;
+    --txt-headline-bg-white: #FFFFFF;
+    --txt-bl-color: #000;
+    --gbMenuBg-color: #303030;
+    
+    --cgHover-color: #ff00bf;
+    --hero-pTitleHover-color: #01eeff;
+    --btnBx-color: #04AA6D;
+    --global-cg-link-color: #fff;
+    --global-cg-link-hover-color: #00FF7F;
+    --global-border-top-color: rgb(0, 152, 254);
+    
+}
+
+.npr_article_ct {
+    margin-bottom: 20px;
+}
+
+.npr_atc_hostL_ct .d-flex {
+    display: flex;
+}
+
+.npr_atc_hostUl {
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.npr_atc_hostUl li {
+    list-style-type: none;
+}
+
+.npr_atc_hostUl li a {
+    display: inline-block;
+    font: 700 14px / 28px "roboto", sans-serif;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.npr_atc_hostUl li a:hover {
+    color: #ec0854;
+}
+
+.npr_atc_hostLink::after {
+    content: '';
+    display: inline-block;
+    border-right: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    width: 5px;
+    height: 5px;
+    transform: rotate(-45deg);
+    margin: 0 6px 1px;
+}
+
+.npr_atc_title {
+    display: block;
+    margin: 5px 0 5px;
+    font: 700 26px / 28px var(--global-item-headline-font);
+    color: var(--global-item-headline-color);
+}
+
+.npr_atc_title a:hover {
+    color: #ec0854;
+}
+
+.npr_atc_des p {
+    font: 400 16px / 18px var(--global-item-description-font);
+    letter-spacing: 0.5px;
+    color: var(--global-item-description-color);
+    padding: 0 0 10px;
+}
+
+.npr_atc_item .author_info {
+    padding-bottom: 20px;
+    color: var(--global-author-font-color);
+}
+
+.npr_atc_item .author_info .author_name a:hover {
+    color: var(--global-npr_atc-hover-color);
+}
+
+.npr_atc_thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.npr_atc_faq h2 {
+    font: 700 16px / 18px var(--global-item-headline-font);
+    padding: 15px 0 5px;
+}
+
+.npr_atc_faq h2 a:hover {
+    color: var(--global-npr_atc-hover-color);
+}
+
+.npr_atc_faq h3 {
+    font: 600 16px / 18px var(--global-item-headline-font);
+    color: #7c1034;
+    padding: 6px 0 5px;
+}
+
+.npr_atc_faq p {
+    font: 400 16px / 18px var(--global-item-description-font);
+    color: var(--global-item-description-color);
+    padding-bottom: 5px;
+}
+
+.npr_atc_faq .npr_atc_hyperlink {
+    color: #000;
+    font: 14px / 18px var(--global-item-description-font);
+}
+
+.npr_atc_hyperlink a {
+    color: var(--global-npr_atc-hover-color);
+}
+
+.npr_atc_hyperlink a:hover {
+    color: #000;
+    border-bottom: 1px solid #303030;
+}
+
+.npr_atc_olList {
+    margin: 0 0 0 20px;
+}
+
+.npr_atc_olList li {
+    font: 500 14px / 18px var(--global-item-description-font);
+    color: #000;
+}
+
+.npr_atc_olList a:hover {
+    color: #1f11dd;
+}
+
+.npr_atc_faq .npr_atc_applyTitle {
+    text-align: center;
+    display: block;
+}
+
+/*  */
+.npr_atc_applyNow {
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+.npr_atc_applyNow a {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font: 600 16px / 18px var(--global-item-headline-font);
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 6px 12px;
+    box-shadow: 0px 0px 5px #000;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.npr_atc_applyNow a::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: -1;
+}
+
+.npr_atc_applyNow span::before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00FF7F;
+    z-index: -1;
+    animation: nprApplyNow 10s linear infinite;
+}
+
+@keyframes nprApplyNow {
+    0% {
+        /* width: 0%; */
+    }
+
+    50% {
+        width: 100%;
+        background-color: #1b0de2;
+    }
+}
+
+/*  */
+.npr_atc_rtdHeadLine {
+    font: 700 26px / 28px var(--global-item-headline-font);
+    border: 1px solid var(--global-border-any-side-color);
+    padding: 10px;
+    border-left: 5px solid #303030;
+}
+
+.npr_atc_rtdPost_item {
+    margin-bottom: 30px;
+}
